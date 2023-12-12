@@ -1,0 +1,41 @@
+html,
+body {
+    height: 100%;
+    margin: 0px;
+    background-color: rgb(197, 211, 214);
+}
+
+.outer {
+    display: flex;
+    flex-direction:column; 
+    justify-content:center;
+    align-items:center;
+    height: 100%;
+    width: 100%;
+    
+}
+.btn{
+    padding:22px;
+}
+
+.centered {
+    text-align: start;
+    width: 40%;
+    
+}
+input
+ {
+    font-style:italic;
+    margin: 5px;
+    padding: 22px;
+    font-size: 36px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+button {
+    background-color: rgb(66, 209, 202);
+    font-size: 36px;
+}
+
+button:hover {
+    background-color: rgb(236, 72, 72);
+}
